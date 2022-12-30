@@ -62,3 +62,8 @@ const puppeteer = require(`puppeteer`);
 
   await page.waitForNetworkIdle();
 })();
+
+    // const likes = await page.$$eval(
+    //   "#react-root > div > div > div.css-1dbjc4n.r-18u37iz.r-13qz1uu.r-417010 > main > div > div > div > div > div > section > div > div > div:nth-child(8) > div > div > div > article > div > div > div > div.css-1dbjc4n.r-18u37iz > div.css-1dbjc4n.r-1iusvr4.r-16y2uox.r-1777fci.r-kzbkwu > div:nth-child(2) > div:nth-child(3) > div.css-1dbjc4n.r-1ta3fxp.r-18u37iz.r-1wtj0ep.r -1s2bzr4.r-1mdbhws > div:nth-child(3) > div > div > div:nth-child(2) > span > span > span",
+    //   (elements) => elements.map((e) => e.textContent)
+    // );
